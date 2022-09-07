@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
   s.dependency "React-Core"
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 8.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 9.9.0'
 
   if defined?($RNAdMobAsStaticFramework)
     Pod::UI.puts "#{s.name}: Using overridden static_framework value of '#{$RNAdMobAsStaticFramework}'"
